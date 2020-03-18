@@ -10,7 +10,8 @@ Accepts as input:
 - a set of images
 - a vector of labels corresponding to the images 
 - a query image
-- a number k 
+- a number k
+
 returns a prediction of the query image, given the label set of images.
 The algorithm uses the k nearest neighbors, using the Euclidean
 L2 metric. In case of a tie between the k labels of neighbors, it will choose an arbitrary
